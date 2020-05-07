@@ -16,7 +16,7 @@ botoncito.addEventListener('click', () => {
     // las opciones necesarias pueden variar, mirate esta pagina:
     // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
     method: 'POST',
-    body: JSON.stringify({ password: numerito }),
+    body: JSON.stringify({ password: numerito }), // lo que el PHP necesite, aqui mandamos un objeto con una password
     mode: 'cors',
     headers: {
       'Content-Type': 'application/json'
