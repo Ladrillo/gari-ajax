@@ -1,0 +1,15 @@
+{
+  "name": "gari",
+  "version": "1.0.0",
+  "scripts": {
+    "api": "node server.js",
+    "start": "parcel index.html"
+  },
+  "author": "Gabriel Cabrejas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
